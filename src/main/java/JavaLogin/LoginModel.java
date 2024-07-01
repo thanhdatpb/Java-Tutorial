@@ -13,7 +13,6 @@ public class LoginModel {
             this.userName = userName;
             this.password = password;
         }
-
         public String getUserName() {
             return userName;
         }
