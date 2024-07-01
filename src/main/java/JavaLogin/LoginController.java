@@ -6,7 +6,6 @@ public class LoginController {
     public LoginController(LoginView view) {
         this.view = view;
     }
-
     public void login() {
         while (true) {
             LoginModel user = view.getUserInfo();
